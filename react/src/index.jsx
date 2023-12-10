@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         loading={<Spinner />}
         persistor={persistor}
       >
-        <BrowserRouter basename="/react">
+        <BrowserRouter basename="/RentCar/react">
           <App />
         </BrowserRouter>
       </PersistGate>
